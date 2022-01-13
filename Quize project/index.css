@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins Regular";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------< Head >------------------------ */
+#bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(8443.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-color:aliceblue; */
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-family: "Poppins Regular";
+  text-decoration: none;
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active {
+  background: #fff;
+  color: orange;
+}
+
+/* ------------------< Content >------------------------ */
+#content {
+  /* border: 2px solid green; */
+  position: absolute;
+  top: 25%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
+#content h2 {
+  color: #fff;
+  padding: 1%;
+  font-family: "Game of Thrones";
+}
+h2 {
+  font-size: 50px;
+}
+#content h4 {
+  color: #fff;
+  padding: 1%;
+  font-family: "Segoe UI";
+}
+h4 {
+  font-weight: 100;
+  font-size: x-large;
+}
+#content p {
+  color: #fff;
+  text-align: center;
+  padding: 4% 6%;
+  font-family: "Papyrus", "Segoe Script";
+}
+p {
+  font-size: 30px;
+}
+#btn {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-weight: 300;
+  background-color: #180c1a;
+  border-radius: 20px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.001),
+    15px 15px 1px rgba(0, 0, 0, 0.01),
+    inset -5px -5px 11px rgba(255, 255, 255, 0.02),
+    inset 5px 5px 11px rgba(0, 0, 0, 0.5);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#btn:hover {
+  text-decoration: none;
+  color: #fff;
+  padding: 14px;
+  font-weight: 300;
+  background-color: none;
+  border-radius: 20px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.001),
+    15px 15px 1px rgba(0, 0, 0, 0.01),
+    inset -5px -5px 11px rgba(255, 255, 255, 0.02),
+    inset 5px 5px 11px rgba(0, 0, 0, 0.5);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#container {
+  background-color: #180c1a;
+  width: 100%;
+  text-align: center;
+  height: 750px;
+}
+#cardContainer {
+  position: relative;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container h2,
+h1 {
+  color: #fff;
+}
+
+#card:nth-child(1) {
+  background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80);
+}
+
+#card:nth-child(2) {
+  background-image: url(https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80);
+}
+
+#card:nth-child(3) {
+  background-image: url(https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+}
+
+#card:nth-child(4) {
+  background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=362&q=80);
+}
+#card {
+  margin: 3%;
+  width: 280px;
+  height: 360px;
+  background-color: crimson;
+  background-size: cover;
+  background-position: center;
+}
+/* ------------------< Footer >------------------------ */
+#footer {
+  background-color: #dcd1de;
+  width: 100%;
+  height: 128px;
+}
+#cardfooter {
+  position: relative;
+  top: 10%;
+  padding: 2% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon a {
+  margin: 1% 3%;
+  width: 40px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+}
+#icon a {
+  margin: 10px;
+  color: #180c1a;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+}
+#icon img {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
